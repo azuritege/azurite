@@ -6,7 +6,8 @@
                 "${default}",
                 "${workspaceFolder}/vendor/raylib/src",
                 "${workspaceFolder}/vendor/Lua/lua-5.4.7/include",
-                "${workspaceFolder}/vendor/sol2/include"
+                "${workspaceFolder}/vendor/sol2/include",
+                "${workspaceFolder}/vendor/flecs/include"
             ],
             "defines": [
                 "_DEBUG",
