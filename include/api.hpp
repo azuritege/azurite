@@ -59,6 +59,10 @@ void luaInject(sol::state &lua) {
         curScene->enter();
     });
 
+    a.set_function("clear", [](uint8_t r, uint8_t g, uint8_t b) {
+        ClearBackground(Color{r, g, b, 255});
+    });
+
     a.set_function("load_texture", [](std::string path) {
         return loadTexture(path);
     });
