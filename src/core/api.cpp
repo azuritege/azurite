@@ -83,8 +83,8 @@ void API::inject(sol::state& lua) {
 
     // Audio
     auto audio = a["audio"].get_or_create<sol::table>();
-    a.new_usertype<Audio::LuaMusic>("Music", sol::constructors<Audio::LuaMusic(std::string)>());
-    a.new_usertype<Audio::LuaSound>("Sound", sol::constructors<Audio::LuaSound(std::string)>());
+    audio.new_usertype<Audio::LuaMusic>("Music", sol::constructors<Audio::LuaMusic(std::string)>());
+    audio.new_usertype<Audio::LuaSound>("Sound", sol::constructors<Audio::LuaSound(std::string)>());
 
     audio.set_function("load_sound", &Audio::loadSound);
     audio.set_function("play_sound", &Audio::playSound);
