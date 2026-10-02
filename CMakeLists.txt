@@ -8,7 +8,20 @@ add_subdirectory(vendor/Lua)
 add_subdirectory(vendor/raylib)
 add_subdirectory(vendor/sol2)
 
-add_executable(azurite src/main.cpp)
-target_include_directories(azurite PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+set(AZURITE_SOURCES
+    src/main.cpp
+
+    src/api/audio.cpp
+    src/api/graphics.cpp
+    src/api/input.cpp
+    src/api/math.cpp
+    src/api/scene.cpp
+
+    src/core/api.cpp
+    src/core/application.cpp
+)
+
+add_executable(azurite ${AZURITE_SOURCES})
+target_include_directories(azurite PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_libraries(azurite PRIVATE raylib Lua::Library sol2)
 set_target_properties(azurite PROPERTIES OUTPUT_NAME "_azurite")

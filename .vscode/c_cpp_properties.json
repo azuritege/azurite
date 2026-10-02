@@ -4,10 +4,10 @@
             "name": "Win32",
             "includePath": [
                 "${default}",
+                "${workspaceFolder}/src",
                 "${workspaceFolder}/vendor/raylib/src",
                 "${workspaceFolder}/vendor/Lua/lua-5.4.7/include",
-                "${workspaceFolder}/vendor/sol2/include",
-                "${workspaceFolder}/vendor/flecs/include"
+                "${workspaceFolder}/vendor/sol2/include"
             ],
             "defines": [
                 "_DEBUG",
