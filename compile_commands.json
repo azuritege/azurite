@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/Gabriel Jemail/Projects/Azurite",
+  "command": "C:\\Apps\\Clang+LLVM\\bin\\clang++.exe -I\"C:/Users/Gabriel Jemail/Projects/Azurite/src\" -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\azurite.dir\\src\\main.cpp.obj -c \"C:\\Users\\Gabriel Jemail\\Projects\\Azurite\\src\\main.cpp\"",
+  "file": "C:/Users/Gabriel Jemail/Projects/Azurite/src/main.cpp",
+  "output": "C:/Users/Gabriel Jemail/Projects/Azurite/CMakeFiles/azurite.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Jemail/Projects/Azurite",
+  "command": "C:\\Apps\\Clang+LLVM\\bin\\clang++.exe -I\"C:/Users/Gabriel Jemail/Projects/Azurite/src\" -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\azurite.dir\\src\\api\\audio.cpp.obj -c \"C:\\Users\\Gabriel Jemail\\Projects\\Azurite\\src\\api\\audio.cpp\"",
+  "file": "C:/Users/Gabriel Jemail/Projects/Azurite/src/api/audio.cpp",
+  "output": "C:/Users/Gabriel Jemail/Projects/Azurite/CMakeFiles/azurite.dir/src/api/audio.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Jemail/Projects/Azurite",
+  "command": "C:\\Apps\\Clang+LLVM\\bin\\clang++.exe -I\"C:/Users/Gabriel Jemail/Projects/Azurite/src\" -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\azurite.dir\\src\\api\\graphics.cpp.obj -c \"C:\\Users\\Gabriel Jemail\\Projects\\Azurite\\src\\api\\graphics.cpp\"",
+  "file": "C:/Users/Gabriel Jemail/Projects/Azurite/src/api/graphics.cpp",
+  "output": "C:/Users/Gabriel Jemail/Projects/Azurite/CMakeFiles/azurite.dir/src/api/graphics.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Jemail/Projects/Azurite",
+  "command": "C:\\Apps\\Clang+LLVM\\bin\\clang++.exe -I\"C:/Users/Gabriel Jemail/Projects/Azurite/src\" -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\azurite.dir\\src\\api\\input.cpp.obj -c \"C:\\Users\\Gabriel Jemail\\Projects\\Azurite\\src\\api\\input.cpp\"",
+  "file": "C:/Users/Gabriel Jemail/Projects/Azurite/src/api/input.cpp",
+  "output": "C:/Users/Gabriel Jemail/Projects/Azurite/CMakeFiles/azurite.dir/src/api/input.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Jemail/Projects/Azurite",
+  "command": "C:\\Apps\\Clang+LLVM\\bin\\clang++.exe -I\"C:/Users/Gabriel Jemail/Projects/Azurite/src\" -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\azurite.dir\\src\\api\\math.cpp.obj -c \"C:\\Users\\Gabriel Jemail\\Projects\\Azurite\\src\\api\\math.cpp\"",
+  "file": "C:/Users/Gabriel Jemail/Projects/Azurite/src/api/math.cpp",
+  "output": "C:/Users/Gabriel Jemail/Projects/Azurite/CMakeFiles/azurite.dir/src/api/math.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Jemail/Projects/Azurite",
+  "command": "C:\\Apps\\Clang+LLVM\\bin\\clang++.exe -I\"C:/Users/Gabriel Jemail/Projects/Azurite/src\" -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\azurite.dir\\src\\api\\scene.cpp.obj -c \"C:\\Users\\Gabriel Jemail\\Projects\\Azurite\\src\\api\\scene.cpp\"",
+  "file": "C:/Users/Gabriel Jemail/Projects/Azurite/src/api/scene.cpp",
+  "output": "C:/Users/Gabriel Jemail/Projects/Azurite/CMakeFiles/azurite.dir/src/api/scene.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Jemail/Projects/Azurite",
+  "command": "C:\\Apps\\Clang+LLVM\\bin\\clang++.exe -I\"C:/Users/Gabriel Jemail/Projects/Azurite/src\" -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\azurite.dir\\src\\core\\api.cpp.obj -c \"C:\\Users\\Gabriel Jemail\\Projects\\Azurite\\src\\core\\api.cpp\"",
+  "file": "C:/Users/Gabriel Jemail/Projects/Azurite/src/core/api.cpp",
+  "output": "C:/Users/Gabriel Jemail/Projects/Azurite/CMakeFiles/azurite.dir/src/core/api.cpp.obj"
+},
+{
+  "directory": "C:/Users/Gabriel Jemail/Projects/Azurite",
+  "command": "C:\\Apps\\Clang+LLVM\\bin\\clang++.exe -I\"C:/Users/Gabriel Jemail/Projects/Azurite/src\" -O0 -g -Xclang -gcodeview -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\azurite.dir\\src\\core\\application.cpp.obj -c \"C:\\Users\\Gabriel Jemail\\Projects\\Azurite\\src\\core\\application.cpp\"",
+  "file": "C:/Users/Gabriel Jemail/Projects/Azurite/src/core/application.cpp",
+  "output": "C:/Users/Gabriel Jemail/Projects/Azurite/CMakeFiles/azurite.dir/src/core/application.cpp.obj"
+}
+]

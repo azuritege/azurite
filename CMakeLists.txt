@@ -4,9 +4,7 @@ project(Azurite CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_subdirectory(vendor/Lua)
-add_subdirectory(vendor/raylib)
-add_subdirectory(vendor/sol2)
+find_package(Lua::Library REQUIRED)
 
 set(AZURITE_SOURCES
     src/main.cpp
